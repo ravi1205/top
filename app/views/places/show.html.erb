@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Country:</strong>
+  <%= @place.country %>
+</p>
+
+<p>
+  <strong>Capital:</strong>
+  <%= @place.capital %>
+</p>
+
+<p>
+  <strong>President:</strong>
+  <%= @place.president %>
+</p>
+
+<p>
+  <strong>Population:</strong>
+  <%= @place.population %>
+</p>
+
+<%= link_to 'Edit', edit_place_path(@place) %> |
+<%= link_to 'Back', places_path %>
