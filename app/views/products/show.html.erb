@@ -1,0 +1,39 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Category:</strong>
+  <%= @product.category %>
+</p>
+
+<p>
+  <strong>Dish style:</strong>
+  <%= @product.dish_style %>
+</p>
+
+<p>
+  <strong>Title:</strong>
+  <%= @product.title %>
+</p>
+
+<p>
+  <strong>Desc:</strong>
+  <%= @product.desc %>
+</p>
+
+<p>
+  <strong>Spice level:</strong>
+  <%= @product.spice_level %>
+</p>
+
+<p>
+  <strong>Calories:</strong>
+  <%= @product.calories %>
+</p>
+
+<p>
+  <strong>Unit price:</strong>
+  <%= @product.unit_price %>
+</p>
+
+<%= link_to 'Edit', edit_product_path(@product) %> |
+<%= link_to 'Back', products_path %>
